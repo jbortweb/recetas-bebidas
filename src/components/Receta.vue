@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <div class=" border shadow w-5/6">
+  <div class=" border shadow w-5/6 m-auto">
     <div class="overflow-hidden">
       <img 
         :src="receta.strDrinkThumb" :alt="'Imagen de '+ receta.strDrink"
